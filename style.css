@@ -1,0 +1,60 @@
+.container{
+     
+    border: 1px solid black;
+    text-align:center;
+ }
+.header{
+    font-size: 3rem;
+    background-color: rgb(151, 34, 44);
+    color: white;
+}
+.choices{
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    gap: 3rem;
+    margin-top: 5rem;
+
+}
+
+.choice{
+    width: 165px;
+    height: 165px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}   
+ img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+.choice:hover {
+    cursor: pointer;
+    background-color: black;
+}
+
+.scorecardtab{
+    font-size: 2rem;
+}
+td{
+    padding: 10px;
+}
+
+.result{
+    margin-top: 2rem;
+}
+
+#resultbar{
+    background-color: black;
+    color: white;
+    font-size: 3rem;
+    border-radius: 10px;
+    display: inline;
+  
+}
